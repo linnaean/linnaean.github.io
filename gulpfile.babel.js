@@ -81,7 +81,7 @@ gulp.task('fonts', () => {
 
 gulp.task('extras', () => {
   return gulp.src([
-    'app/*.*',
+    'app/*',
     '!app/*.html'
   ], {
     dot: true
@@ -168,8 +168,9 @@ gulp.task('default', ['clean'], () => {
 });
 
 var ghPages = require('gulp-gh-pages');
+var options = {branch: "master"}
 
 gulp.task('deploy', function() {
   return gulp.src('./dist/**/*')
-    .pipe(ghPages());
+    .pipe(ghPages(options));
 });

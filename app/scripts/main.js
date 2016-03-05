@@ -1,2 +1,4 @@
+/* global vivus */
+
 // Logo animation.
-new Vivus('linnaean-logo-animate', {type: 'oneByOne', duration: 300});
+vivus('linnaean-logo-animate', {type: 'oneByOne', duration: 300});
