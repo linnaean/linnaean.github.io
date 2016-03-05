@@ -1,1 +1,1 @@
-"use strict";new Vivus("linnaean-logo-animate",{type:"oneByOne",duration:300});
+"use strict";vivus("linnaean-logo-animate",{type:"oneByOne",duration:300});
