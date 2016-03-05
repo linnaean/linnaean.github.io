@@ -1,4 +1,5 @@
-/* global vivus */
+/* global Vivus */
+/*eslint new-cap: 0 */
 
 // Logo animation.
-vivus('linnaean-logo-animate', {type: 'oneByOne', duration: 300});
+Vivus('linnaean-logo-animate', {type: 'oneByOne', duration: 300});
